@@ -4,3 +4,4 @@
 
 The output directory contains analysis output, processed datasets, logs, or other processed things.
 
+anes_use.csv: filtered data with columns: year, turnout, vote, race, gender, language, interview.
