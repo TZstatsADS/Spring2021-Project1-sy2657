@@ -19,3 +19,17 @@ pie <- race.bp + coord_polar("y", start=0)+ scale_fill_brewer(palette="Set3")
 pie
 
 
+#characteristic: region
+nreg1 <- nrow(anes_new2[anes_new2$region=='1. Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)',])
+nreg2 <- nrow(anes_new2[anes_new2$region=='2. North Central (IL, IN, IA, KS, MI, MN, MO, NE, ND,',])
+nreg3 <- nrow(anes_new2[anes_new2$region=='3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC',])
+nreg4 <- nrow(anes_new2[anes_new2$region=='4. West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA,',]) 
+#reg5 <- anes_new2[anes_new2$region=='',] 
+
+reg.df <- data.frame(group = c("Northeast", "North Central", "South", "West"), value = c(nreg1, nreg2, nreg3, nreg4))
+
+reg.bp<- ggplot(reg.df, aes(x="", y=value, fill=group))+
+geom_bar(width = 1, stat = "identity")
+
+pie2 <- reg.bp + coord_polar("y", start=0)+ scale_fill_brewer(palette="Set2")
+pie2
