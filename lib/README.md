@@ -7,4 +7,4 @@
 
 Step 1: run preprocess_data r code
 
-Step 2: run pie_chart r code
+Step 2: run piechart r code
