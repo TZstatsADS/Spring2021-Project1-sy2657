@@ -4,26 +4,17 @@
 
 (The output directory contains analysis output, processed datasets, logs, or other processed things)
 
-anes_use.csv: filtered data with columns: year, turnout, vote, race, gender, language, interview, urbanism, region, work, grewup, job, outofwork.
 
-anes_new.csv: same as anes_use but omitting all NA values.
+anes_new.csv: filtered data with columns: year, turnout, vote, race, gender, language, interview, urbanism, region, work, grewup, job, outofwork such that all NA values are omitted.
 
 Grouped data from anes_use into three groups that hold relevant characteristics:
 
-anes_use1.csv: (year, vote, race, language, interview, gender, turnout)
-
-anes_new1.csv: anes_use1 data omitting all NA values
+anes_new1.csv: selected data of (year, vote, race, language, interview, gender, turnout) omitting all NA values
 
 
-anes_use2.csv: (year, vote, region, urbanism, grewup, turnout)
+anes_new2.csv: selected data of (year, vote, region, urbanism, grewup, turnout) omitting all NA values
 
-anes_new2.csv: anes_use2 data omitting all NA values
-
-
-
-anes_use3.csv: (year, vote, work, job, outofwork, turnout)
-
-anes_new3.csv: anes_use3 data omitting all NA values
+anes_new3.csv: selected data of (year, vote, work, job, outofwork, turnout) omitting all NA values
 
 
 where 
