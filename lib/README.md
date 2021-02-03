@@ -5,6 +5,6 @@
 (The lib directory contains various files with function definitions and computation codes for your data analysis. )
 
 
-Step 1: run preprocess code
+Step 1: run preprocess_data r code
 
-Step 2: run pie chart code
+Step 2: run pie_chart r code
