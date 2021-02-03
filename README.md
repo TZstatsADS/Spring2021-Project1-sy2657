@@ -2,7 +2,6 @@
 ## Spring 2021
 ## Project 1: A "data story" on how Americans vote
 
-<img src="figs/title1.jpeg" width="500">
 
 ### [Project Description](doc/)
 
