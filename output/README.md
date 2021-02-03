@@ -19,15 +19,27 @@ anes_use3.csv: (year, vote, work, job, outofwork, turnout)
 where 
 
 "year": year of the record
+
 "turnout": turnout (voted, registered but did not vote, not registered and did not vote)
+
 "vote": which party they voted for
+
 "race": their race
+
 "gender": their gender
+
 "language": language the interview was conducted in
+
 "interview": mode of interview (telephone, internet, etc.)
+
 "urbanism": the urbanism of where they are located (central, suburban, rural)
+
 "region": census region (northeast, north central, south, west 
+
 "work": work status (working, temp laid off, unemployed, retired, disabled, homemaker, student)
+
 "grewup" : type of community where grew up (farm, country not farm, small city, medium city, large city, suburb of large city, very large city, suburb of very large city)
+
 "job": worried about losing/finding job in the future
+
 "outofwork": laid off / out of work in past 6 months?
