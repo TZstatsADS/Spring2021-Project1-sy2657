@@ -2,7 +2,7 @@
 
 ### Output folder
 
-The output directory contains analysis output, processed datasets, logs, or other processed things.
+(The output directory contains analysis output, processed datasets, logs, or other processed things)
 
 anes_use.csv: filtered data with columns: year, turnout, vote, race, gender, language, interview, urbanism, region, work, grewup, job, outofwork.
 
@@ -40,6 +40,6 @@ where
 
 "grewup" : type of community where grew up (farm, country not farm, small city, medium city, large city, suburb of large city, very large city, suburb of very large city)
 
-"job": worried about losing/finding job in the future
+"job": worried about losing/finding job in the future  ( A lot, somewhat, not much at all)
 
-"outofwork": laid off / out of work in past 6 months?
+"outofwork": laid off / out of work in past 6 months? (Yes, no)
