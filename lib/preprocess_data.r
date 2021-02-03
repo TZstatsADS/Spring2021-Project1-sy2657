@@ -39,3 +39,5 @@ anes_use3 = anes_use %>% select(year, vote, work, job, outofwork, turnout)
 anes_new1 = na.omit(anes_use1)
 anes_new2 = na.omit(anes_use2)
 anes_new3 = na.omit(anes_use3)
+
+anes_new <- na.omit(anes_use)
