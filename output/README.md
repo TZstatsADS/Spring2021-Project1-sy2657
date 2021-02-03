@@ -11,10 +11,15 @@ anes_new.csv: same as anes_use but omitting all NA values.
 Grouped data from anes_use into three groups that hold relevant characteristics:
 
 anes_use1.csv: (year, vote, race, language, interview, gender, turnout)
+anes_new1.csv: anes_use1 data omitting all NA values
 
 anes_use2.csv: (year, vote, region, urbanism, grewup, turnout)
+anes_new2.csv: anes_use2 data omitting all NA values
+
 
 anes_use3.csv: (year, vote, work, job, outofwork, turnout)
+anes_new3.csv: anes_use3 data omitting all NA values
+
 
 where 
 
