@@ -7,7 +7,7 @@
 
 anes_new.csv: filtered data with columns: year, turnout, vote, race, gender, language, interview, urbanism, region, work, grewup, job, outofwork such that all NA values are omitted.
 
-Grouped data from anes_use into three groups that hold relevant characteristics:
+Grouped data into three groups that hold relevant characteristics:
 
 anes_new1.csv: selected data of (year, vote, race, language, interview, gender, turnout) omitting all NA values
 
